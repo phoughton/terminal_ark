@@ -1,18 +1,14 @@
-# Python Project Template for your projects
+# Quick look at terminal apps with blessed
 
-Use as a template for python repos, just basics to support python development and testing.
+I used Python and the blessed library to create a terminal app, that is just a simple game of single user pong.
 
-
-## Run the tests
+## Start the game 
 ```bash
-python -m pytest
+python ball.py
 ```
-## Debugger
 
-The `launch.json` file includes the necessary config to support using the vscode python debugger with pytest.
+# What does it look like?
 
+![pong](smaller_animated.gif)
 
-# Docker Container
-
-Here is the [Dockerfile](https://github.com/phoughton/python_dev_container) for this template repo.
-(Its in a seperate Repo)
+(Sorry if you see flicker, thats an artifact of the gif conversion)
